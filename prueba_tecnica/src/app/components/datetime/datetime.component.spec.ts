@@ -23,7 +23,11 @@ describe('DateTimeComponent', () => {
 
   setInterval(() => {
     let reloj = document.getElementsByClassName("reloj")[0];
+    let tiempo = new Date()
+    let hora = tiempo.getHours
+    let minutos = tiempo.getMinutes
+    let segundos = tiempo.getSeconds
 
-
+    
   }, 1000)
 });
