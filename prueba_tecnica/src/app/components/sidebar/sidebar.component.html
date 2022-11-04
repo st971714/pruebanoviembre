@@ -11,7 +11,7 @@
               <li>
                 <div class="pdfLista">
                   <p>Archivos de la reunión</p>
-                  <app-pdflist *ngFor="let pdf of pdfs"></app-pdflist>
+                  <app-pdflist [dataEntrante]="pdf" *ngFor="let pdf of pdfs"></app-pdflist>
                 </div>
               </li>
           </ul>

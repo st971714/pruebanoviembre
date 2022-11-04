@@ -1,3 +1,27 @@
-.junta{
-  background-color: pink;
+*{
+  font-family: 'Quicksand', sans-serif;;
 }
+*img{
+  width: 65px;
+  height: 65px;
+  border-radius: 3px;
+}
+.junta{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  .texto{
+    margin: 0;
+    .motivo{
+      font-size: larger;
+      font-weight: bold;
+      margin-bottom: 0;
+      margin-left: 30px;
+    }
+    .organizador{
+      font-size: x-small;
+      font-weight: 100;
+    }
+  }
+}
+

@@ -8,9 +8,33 @@ import { Component, OnInit } from '@angular/core';
 export class ContenedorFlexboxComponent implements OnInit {
   imgPrincipal='../../../assets/reunion-socios-juntafreepik1.jpg.webp';
   imgUser='../../../assets/userprof.jpg';
+  meets:Array<any>=[]
   constructor() { }
 
   ngOnInit(): void {
+    this.meets=[
+      {
+        icon1:'../../../assets/reunion.jpg',
+        text1: 'Junta directiva',
+        text2: 'Garantias Comunitarias Panamá',
+      },
+      {
+        icon1:'../../../assets/reunion.jpg',
+        text1: 'Junta directiva',
+        text2: 'Garantias Comunitarias Panamá',
+      },
+      {
+        icon1:'../../../assets/reunion.jpg',
+        text1: 'Junta directiva',
+        text2: 'Garantias Comunitarias Panamá',
+      },
+      {
+        icon1:'../../../assets/reunion.jpg',
+        text1: 'Junta directiva',
+        text2: 'Garantias Comunitarias Panamá',
+      },
+
+    ]
   }
 
 }

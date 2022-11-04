@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./meetings.component.scss']
 })
 export class MeetingsComponent implements OnInit {
-  imgMeeting='';
+  imgMeeting='../../../assets/reunion-socios-juntafreepik1.jpg.webp';
 
   constructor() { }
 

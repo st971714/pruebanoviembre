@@ -1,6 +1,6 @@
-<div class="container text-center">
+<div class="container text-center contenedorPrincipal">
   <div class="row">
-    <div class="col-sm-7 imagenPrincipal">
+    <div class="col-sm-8 imagenPrincipal">
       <img [src]="imgPrincipal">
       <h1>Junta Directiva</h1>
       <h6>Garantias Comunitarias</h6>
@@ -12,14 +12,17 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-lg form">
+    <div class="col-sm form">
       <app-formulariopoder></app-formulariopoder>
     </div>
-    <div class="col-lg">
-
+    <div class="col-sm formReunion">
+      <app-inicio-reunion></app-inicio-reunion>
     </div>
-    <div class="col-lg">
-      <app-meetings></app-meetings>
+    <div class="col-sm">
+      <div class="meets">
+        <p>Tus próximas reuniones</p>
+        <app-meetings *ngFor="let meet of meets" ></app-meetings>
+      </div>
     </div>
   </div>
 </div>

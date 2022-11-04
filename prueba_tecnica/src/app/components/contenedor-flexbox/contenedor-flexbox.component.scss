@@ -1,4 +1,5 @@
 .imagenPrincipal{
+  max-width: 100%;
   img{
     margin-top: 48px;
     width: 100%;
@@ -48,4 +49,24 @@
 }
 .form{
   margin-top: 12px;
+}
+.formReunion{
+  margin-top: 12px;
+}
+.contenedorPrincipal{
+  margin: 0;
+}
+.meets{
+  margin-top: 24px;
+  p{
+    display: flex;
+    position: relative;
+    left: 0;
+    font-weight: bold;
+  }
+  app-meetings{
+    display: flex;
+    position: relative;
+    left: 25px;
+  }
 }

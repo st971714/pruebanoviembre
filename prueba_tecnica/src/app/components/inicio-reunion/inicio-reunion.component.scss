@@ -1,0 +1,55 @@
+* {
+  font-family: 'Quicksand', sans-serif;;
+}
+.reunion{
+  max-width: 100%;
+  margin: 5px;
+  border: 1px solid rgb(218, 216, 216);
+  border-radius: 8px;
+  p{
+    margin-top: 0px;
+    font-weight: 200;
+    font-size: larger;
+  }
+}
+.inicioReunion{
+ margin-top: 68px ;
+ display: flex;
+ margin-left: 100px;
+  .dias :nth-child(1){
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 0;
+  }
+  .dias:nth-child(2){
+    font-weight: 100;
+    margin-top: 0;
+  }
+  .horas :nth-child(1){
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 0;
+  }
+  .horas:nth-child(2){
+    font-weight: 100;
+    margin-top: 0;
+   }
+  .minutos :nth-child(1){
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 0;
+  }
+  .minutos:nth-child(2){
+    font-weight: 100;
+    margin-top: 0;
+  }
+}
+.boton2{
+  margin-top: 130px;
+  margin-bottom: 0;
+  width: 100%;
+}
+.barra{
+  max-width: 80%;
+  background: black;
+}
