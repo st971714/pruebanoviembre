@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { DateTimeComponent } from './components/datetime/datetime.component';
 import { PdflistComponent } from './components/pdflist/pdflist.component';
+import { ContenedorFlexboxComponent } from './components/contenedor-flexbox/contenedor-flexbox.component';
+import { FormulariopoderComponent } from './components/formulariopoder/formulariopoder.component';
+import { InicioReunionComponent } from './components/inicio-reunion/inicio-reunion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
     DateTimeComponent,
-    PdflistComponent
+    PdflistComponent,
+    ContenedorFlexboxComponent,
+    FormulariopoderComponent,
+    InicioReunionComponent
   ],
   imports: [
     BrowserModule,

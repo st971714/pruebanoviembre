@@ -1,0 +1,66 @@
+* {
+  font-family: 'Quicksand', sans-serif;;
+}
+.formulario {
+  border-radius: 3px;
+  border: 1px solid rgb(197, 180, 180);
+  margin: 5px;
+  p{
+    font-weight: bolder;
+    margin-top: 8px;
+  }
+}
+.cedula{
+  .id{
+    margin: 0;
+    font-weight: bold;
+  }
+  .numero{
+    margin: 0;
+    font-weight: 100;
+  }
+}
+.evento{
+  .detalleEvento{
+    margin: 0;
+    font-weight: bold;
+  }
+  .empresa{
+    margin: 0;
+    font-weight: 100;
+  }
+}
+.nombre{
+  left: 0;
+  .empleado{
+    margin: 0;
+    font-weight: bold;
+  }
+  .nombreEmpleado{
+    margin: 0;
+    font-weight: 100;
+  }
+}
+.correo{
+  .direccion{
+    font-weight: bold;
+    margin: 0;
+  }
+  .email{
+    margin: 0;
+    font-weight: 100;
+  }
+}
+.firma{
+
+  .firmaEmpleado{
+    font-weight: bold;
+    margin: 0;
+  }
+  .cuadro{
+    border-color: black 1px solid;
+  }
+}
+.boton{
+  width: 100%;
+}
