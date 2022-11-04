@@ -9,6 +9,7 @@ import { PdflistComponent } from './components/pdflist/pdflist.component';
 import { ContenedorFlexboxComponent } from './components/contenedor-flexbox/contenedor-flexbox.component';
 import { FormulariopoderComponent } from './components/formulariopoder/formulariopoder.component';
 import { InicioReunionComponent } from './components/inicio-reunion/inicio-reunion.component';
+import { MeetingsComponent } from './components/meetings/meetings.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { InicioReunionComponent } from './components/inicio-reunion/inicio-reuni
     PdflistComponent,
     ContenedorFlexboxComponent,
     FormulariopoderComponent,
-    InicioReunionComponent
+    InicioReunionComponent,
+    MeetingsComponent
   ],
   imports: [
     BrowserModule,
